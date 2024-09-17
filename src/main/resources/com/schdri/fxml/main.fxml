@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.schdri.controller.MainController"
+            stylesheets="@../css/main.css">
+
+    <left>
+        <VBox fx:id="navigationBar" styleClass="navigation-bar">
+            <Label text="计算规则设计系统" styleClass="app-title"/>
+
+            <Button fx:id="basicInfoButton" styleClass="nav-button" onAction="#onBasicInfoButtonClicked">
+                <graphic>
+                    <HBox spacing="10" alignment="CENTER_LEFT">
+                        <ImageView fitHeight="24" fitWidth="24">
+                            <Image url="@../img/icon.ico"/>
+                        </ImageView>
+                        <VBox>
+                            <Label text="基本信息" styleClass="nav-button-title"/>
+                            <Label text="Basic Info" styleClass="nav-button-subtitle"/>
+                        </VBox>
+                    </HBox>
+                </graphic>
+            </Button>
+
+            <Button fx:id="calculationRulesButton" styleClass="nav-button" onAction="#onCalculationRulesButtonClicked">
+                <graphic>
+                    <HBox spacing="10" alignment="CENTER_LEFT">
+                        <ImageView fitHeight="24" fitWidth="24">
+                            <Image url="@../img/icon.ico"/>
+                        </ImageView>
+                        <VBox>
+                            <Label text="计算规则" styleClass="nav-button-title"/>
+                            <Label text="Calculation Rules" styleClass="nav-button-subtitle"/>
+                        </VBox>
+                    </HBox>
+                </graphic>
+            </Button>
+
+            <Button fx:id="dataInputButton" styleClass="nav-button" onAction="#onDataInputButtonClicked">
+                <graphic>
+                    <HBox spacing="10" alignment="CENTER_LEFT">
+                        <ImageView fitHeight="24" fitWidth="24">
+                            <Image url="@../img/icon.ico"/>
+                        </ImageView>
+                        <VBox>
+                            <Label text="数据输入" styleClass="nav-button-title"/>
+                            <Label text="Data Input" styleClass="nav-button-subtitle"/>
+                        </VBox>
+                    </HBox>
+                </graphic>
+            </Button>
+
+            <Button fx:id="ruleDefinitionButton" styleClass="nav-button" onAction="#onRuleDefinitionButtonClicked">
+                <graphic>
+                    <HBox spacing="10" alignment="CENTER_LEFT">
+                        <ImageView fitHeight="24" fitWidth="24">
+                            <Image url="@../img/icon.ico"/>
+                        </ImageView>
+                        <VBox>
+                            <Label text="规则定义" styleClass="nav-button-title"/>
+                            <Label text="Rule Definition" styleClass="nav-button-subtitle"/>
+                        </VBox>
+                    </HBox>
+                </graphic>
+            </Button>
+
+            <Region VBox.vgrow="ALWAYS" /> <!-- Spacer -->
+
+        </VBox>
+    </left>
+
+    <center>
+        <StackPane fx:id="contentArea">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+        </StackPane>
+    </center>
+
+
+</BorderPane>

@@ -1,0 +1,135 @@
+.root {
+    -fx-background-color: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
+}
+
+.navigation-bar {
+    -fx-background-color: linear-gradient(to bottom right, rgba(26, 42, 108, 0.9), rgba(178, 31, 31, 0.9), rgba(253, 187, 45, 0.9));
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 3, 0);
+    -fx-background-radius: 0 0 0 0;
+}
+
+.content-area {
+    -fx-background-color: linear-gradient(to left, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    -fx-background-radius: 0 0 0 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, -3, 0);
+    -fx-padding: 20px;
+}
+
+.transition-box {
+    -fx-background-color: linear-gradient(to bottom right, rgba(26, 42, 108, 0.9), rgba(178, 31, 31, 0.9), rgba(253, 187, 45, 0.9));
+    -fx-min-width: 20px;
+    -fx-pref-width: 20px;
+    -fx-max-width: 20px;
+    -fx-background-radius: 0 20 20 0;
+}
+
+.main-container {
+    -fx-padding: 0;
+    -fx-hgap: 0;
+}
+
+.app-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 20px 15px;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-padding: 12px 15px;
+    -fx-pref-width: 220px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 3, 0, 0, 0);
+    -fx-margin: 5px 0;
+}
+
+.nav-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-button.selected {
+    -fx-background-color: linear-gradient(to left, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    -fx-background-radius: 0 20 20 0;
+}
+
+.nav-button.selected .nav-button-title,
+.nav-button.selected .nav-button-subtitle {
+    -fx-text-fill: #fdbb2d;
+}
+
+
+
+.nav-button-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.nav-button-subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #fdbb2d;
+}
+
+.bottom-bar {
+    -fx-background-color: rgba(26, 42, 108, 0.7);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, -3, 0);
+    -fx-background-radius: 0 0 0 0;
+}
+
+#nextButton {
+    -fx-background-color: #fdbb2d;
+    -fx-text-fill: #1a2a6c;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 24px;
+    -fx-background-radius: 25px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+#nextButton:hover {
+    -fx-background-color: derive(#fdbb2d, -5%);
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.text-field, .text-area, .combo-box {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255, 255, 255, 0.5);
+    -fx-background-radius: 8px;
+}
+
+.text-field:focused, .text-area:focused, .combo-box:focused {
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+    -fx-effect: dropshadow(three-pass-box, rgba(253, 187, 45, 0.3), 3, 0, 0, 0);
+}
+
+.combo-box .list-cell {
+    -fx-background-color: rgba(26, 42, 108, 0.7);
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: rgba(26, 42, 108, 0.7);
+    -fx-background-radius: 8px;
+}
+
+.scroll-bar:vertical,
+.scroll-bar:horizontal {
+    -fx-background-color: rgba(26, 42, 108, 0.3);
+    -fx-background-radius: 8px;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: rgba(253, 187, 45, 0.3);
+    -fx-background-radius: 8px;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover {
+    -fx-background-color: rgba(253, 187, 45, 0.5);
+}

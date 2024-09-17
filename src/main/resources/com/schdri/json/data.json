@@ -1,0 +1,266 @@
+{
+  "curveSuperelevationTable": {
+    "120": {
+      "normal": {
+        "10": [
+          {"minRadius": 2950, "maxRadius": 5500, "superelevation": 2},
+          {"minRadius": 2080, "maxRadius": 2950, "superelevation": 3},
+          {"minRadius": 1590, "maxRadius": 2080, "superelevation": 4},
+          {"minRadius": 1280, "maxRadius": 1590, "superelevation": 5},
+          {"minRadius": 1070, "maxRadius": 1280, "superelevation": 6},
+          {"minRadius": 910, "maxRadius": 1070, "superelevation": 7},
+          {"minRadius": 790, "maxRadius": 910, "superelevation": 8},
+          {"minRadius": 680, "maxRadius": 790, "superelevation": 9},
+          {"minRadius": 570, "maxRadius": 680, "superelevation": 10}
+        ],
+        "8": [
+          {"minRadius": 2860, "maxRadius": 5500, "superelevation": 2},
+          {"minRadius": 1990, "maxRadius": 2860, "superelevation": 3},
+          {"minRadius": 1500, "maxRadius": 1990, "superelevation": 4},
+          {"minRadius": 1190, "maxRadius": 1500, "superelevation": 5},
+          {"minRadius": 980, "maxRadius": 1190, "superelevation": 6},
+          {"minRadius": 790, "maxRadius": 980, "superelevation": 7},
+          {"minRadius": 650, "maxRadius": 790, "superelevation": 8}
+        ],
+        "6": [
+          {"minRadius": 2730, "maxRadius": 5500, "superelevation": 2},
+          {"minRadius": 1840, "maxRadius": 2730, "superelevation": 3},
+          {"minRadius": 1340, "maxRadius": 1840, "superelevation": 4},
+          {"minRadius":  970, "maxRadius": 1340, "superelevation": 5},
+          {"minRadius": 710, "maxRadius":  970, "superelevation": 6}
+        ]
+      },
+      "icy": [
+        {"minRadius": 2780, "maxRadius": 5500, "superelevation": 2},
+        {"minRadius": 1910, "maxRadius": 2780, "superelevation": 3},
+        {"minRadius": 1410, "maxRadius": 1910, "superelevation": 4},
+        {"minRadius": 1070, "maxRadius": 1410, "superelevation": 5},
+        {"minRadius": 810, "maxRadius": 1070, "superelevation": 6}
+      ]
+    },
+    "100": {
+      "normal": {
+        "10": [
+          {"minRadius": 2180, "maxRadius": 4000, "superelevation": 2},
+          {"minRadius": 1530, "maxRadius": 2180, "superelevation": 3},
+          {"minRadius": 1160, "maxRadius": 1530, "superelevation": 4},
+          {"minRadius": 920, "maxRadius": 1160, "superelevation": 5},
+          {"minRadius": 760, "maxRadius": 920, "superelevation": 6},
+          {"minRadius": 640, "maxRadius": 760, "superelevation": 7},
+          {"minRadius": 540, "maxRadius": 640, "superelevation": 8},
+          {"minRadius": 450, "maxRadius": 540, "superelevation": 9},
+          {"minRadius": 360, "maxRadius": 450, "superelevation": 10}
+        ],
+        "8": [
+          {"minRadius": 2150, "maxRadius": 4000, "superelevation": 2},
+          {"minRadius": 1480, "maxRadius": 2150, "superelevation": 3},
+          {"minRadius": 1100, "maxRadius": 1480, "superelevation": 4},
+          {"minRadius": 860, "maxRadius": 1100, "superelevation": 5},
+          {"minRadius": 690, "maxRadius": 860, "superelevation": 6},
+          {"minRadius": 530, "maxRadius": 690, "superelevation": 7},
+          {"minRadius": 400, "maxRadius": 530, "superelevation": 8}
+        ],
+        "6": [
+          {"minRadius": 2000, "maxRadius": 4000, "superelevation": 2},
+          {"minRadius": 1330, "maxRadius":2000, "superelevation": 3},
+          {"minRadius": 920, "maxRadius":1330, "superelevation": 4},
+          {"minRadius": 630, "maxRadius": 920, "superelevation": 5},
+          {"minRadius": 440, "maxRadius": 630, "superelevation": 6}
+        ]
+      },
+      "icy": [
+        {"minRadius": 2090, "maxRadius": 4000, "superelevation": 2},
+        {"minRadius": 1410, "maxRadius": 2090, "superelevation": 3},
+        {"minRadius": 1040, "maxRadius": 1410, "superelevation": 4},
+        {"minRadius": 770, "maxRadius": 1040, "superelevation": 5},
+        {"minRadius": 565, "maxRadius": 770, "superelevation": 6}
+      ]
+    },
+    "80": {
+      "normal": {
+        "10": [
+          {"minRadius": 1460, "maxRadius": 2500, "superelevation": 2},
+          {"minRadius": 1020, "maxRadius": 1460, "superelevation": 3},
+          {"minRadius": 770, "maxRadius": 1020, "superelevation": 4},
+          {"minRadius": 610, "maxRadius": 770, "superelevation": 5},
+          {"minRadius": 500, "maxRadius": 610, "superelevation": 6},
+          {"minRadius": 410, "maxRadius": 500, "superelevation": 7},
+          {"minRadius": 340, "maxRadius": 410, "superelevation": 8},
+          {"minRadius": 280, "maxRadius": 340, "superelevation": 9},
+          {"minRadius": 220, "maxRadius": 280, "superelevation": 10}
+        ],
+        "8": [
+          {"minRadius": 1410, "maxRadius": 2500, "superelevation": 2},
+          {"minRadius": 960, "maxRadius": 1410, "superelevation": 3},
+          {"minRadius": 710, "maxRadius": 960, "superelevation": 4},
+          {"minRadius": 550, "maxRadius": 710, "superelevation": 5},
+          {"minRadius": 420, "maxRadius": 550, "superelevation": 6},
+          {"minRadius": 320, "maxRadius": 420, "superelevation": 7},
+          {"minRadius": 250, "maxRadius": 320, "superelevation": 8}
+        ],
+        "6": [
+          {"minRadius": 1360, "maxRadius": 2500, "superelevation": 2},
+          {"minRadius": 800, "maxRadius": 1360, "superelevation": 3},
+          {"minRadius": 600, "maxRadius": 800, "superelevation": 4},
+          {"minRadius": 400, "maxRadius": 600, "superelevation": 5},
+          {"minRadius": 270, "maxRadius": 400, "superelevation": 6}
+        ]
+      },
+      "icy": [
+        {"minRadius": 1390, "maxRadius": 2500, "superelevation": 2},
+        {"minRadius": 940, "maxRadius": 1390, "superelevation": 3},
+        {"minRadius": 680, "maxRadius": 940, "superelevation": 4},
+        {"minRadius": 490, "maxRadius": 680, "superelevation": 5},
+        {"minRadius": 360, "maxRadius": 490, "superelevation": 6}
+      ]
+    },
+    "60": {
+      "normal": {
+        "10": [
+          {"minRadius": 900, "maxRadius": 1500, "superelevation": 2},
+          {"minRadius": 620, "maxRadius": 900, "superelevation": 3},
+          {"minRadius": 470, "maxRadius": 620, "superelevation": 4},
+          {"minRadius": 360, "maxRadius": 470, "superelevation": 5},
+          {"minRadius": 290, "maxRadius": 360, "superelevation": 6},
+          {"minRadius": 240, "maxRadius": 290, "superelevation": 7},
+          {"minRadius": 190, "maxRadius": 240, "superelevation": 8},
+          {"minRadius": 150, "maxRadius": 190, "superelevation": 9},
+          {"minRadius": 115, "maxRadius": 150, "superelevation": 10}
+        ],
+        "8": [
+          {"minRadius": 1500, "maxRadius": 1500, "superelevation": 2},
+          {"minRadius": 590, "maxRadius": 1499, "superelevation": 3},
+          {"minRadius": 430, "maxRadius": 590, "superelevation": 4},
+          {"minRadius": 320, "maxRadius": 430, "superelevation": 5},
+          {"minRadius": 240, "maxRadius": 320, "superelevation": 6},
+          {"minRadius": 170, "maxRadius": 240, "superelevation": 7},
+          {"minRadius": 125, "maxRadius": 170, "superelevation": 8}
+        ],
+        "6": [
+          {"minRadius": 800, "maxRadius": 1500, "superelevation": 2},
+          {"minRadius": 500, "maxRadius": 800, "superelevation": 3},
+          {"minRadius": 320, "maxRadius": 500, "superelevation": 4},
+          {"minRadius": 200, "maxRadius": 320, "superelevation": 5},
+          {"minRadius": 135, "maxRadius": 200, "superelevation": 6}
+        ],
+        "4": [
+          {"minRadius": 610, "maxRadius": 1500, "superelevation": 2},
+          {"minRadius": 270, "maxRadius": 610, "superelevation": 3},
+          {"minRadius": 150, "maxRadius": 270, "superelevation": 4}
+        ]
+      },
+      "icy": [
+        {"minRadius": 860, "maxRadius": 1500, "superelevation": 2},
+        {"minRadius": 570, "maxRadius": 860, "superelevation": 3},
+        {"minRadius": 410, "maxRadius": 570, "superelevation": 4},
+        {"minRadius": 290, "maxRadius": 410, "superelevation": 5},
+        {"minRadius": 205, "maxRadius": 290, "superelevation": 6}
+      ]
+    },
+    "40": {
+      "normal": {
+        "8": [
+          {"minRadius": 470, "maxRadius": 600, "superelevation": 2},
+          {"minRadius": 310, "maxRadius": 470, "superelevation": 3},
+          {"minRadius": 220, "maxRadius": 310, "superelevation": 4},
+          {"minRadius": 160, "maxRadius": 220, "superelevation": 5},
+          {"minRadius": 120, "maxRadius": 160, "superelevation": 6},
+          {"minRadius": 80, "maxRadius": 120, "superelevation": 7},
+          {"minRadius": 55, "maxRadius": 80, "superelevation": 8}
+        ],
+        "6": [
+          {"minRadius": 410, "maxRadius": 600, "superelevation": 2},
+          {"minRadius": 250, "maxRadius": 410, "superelevation": 3},
+          {"minRadius": 150, "maxRadius": 250, "superelevation": 4},
+          {"minRadius": 90, "maxRadius": 150, "superelevation": 5},
+          {"minRadius": 60, "maxRadius": 90, "superelevation": 6}
+        ],
+        "4": [
+          {"minRadius": 330, "maxRadius": 600, "superelevation": 2},
+          {"minRadius": 130, "maxRadius": 330, "superelevation": 3},
+          {"minRadius": 70, "maxRadius": 130, "superelevation": 4}
+        ],
+        "2": [
+          {"minRadius": 75, "maxRadius": 600, "superelevation": 2}
+        ]
+      },
+      "icy": [
+        {"minRadius": 430, "maxRadius": 600, "superelevation": 2},
+        {"minRadius": 280, "maxRadius": 430, "superelevation": 3},
+        {"minRadius": 190, "maxRadius": 280, "superelevation": 4},
+        {"minRadius": 130, "maxRadius": 190, "superelevation": 5},
+        {"minRadius": 90, "maxRadius": 130, "superelevation": 6}
+      ]
+    },
+    "30": {
+      "normal": {
+        "8": [
+          {"minRadius": 250, "maxRadius": 350, "superelevation": 2},
+          {"minRadius": 170, "maxRadius": 250, "superelevation": 3},
+          {"minRadius": 120, "maxRadius": 170, "superelevation": 4},
+          {"minRadius": 90, "maxRadius": 120, "superelevation": 5},
+          {"minRadius": 60, "maxRadius": 90, "superelevation": 6},
+          {"minRadius": 40, "maxRadius": 60, "superelevation": 7},
+          {"minRadius": 30, "maxRadius": 40, "superelevation": 8}
+        ],
+        "6": [
+          {"minRadius": 230, "maxRadius": 350, "superelevation": 2},
+          {"minRadius": 140, "maxRadius": 230, "superelevation": 3},
+          {"minRadius": 80, "maxRadius": 140, "superelevation": 4},
+          {"minRadius": 50, "maxRadius": 80, "superelevation": 5},
+          {"minRadius": 35, "maxRadius": 50, "superelevation": 6}
+        ],
+        "4": [
+          {"minRadius": 150, "maxRadius": 350, "superelevation": 2},
+          {"minRadius": 60, "maxRadius": 150, "superelevation": 3},
+          {"minRadius": 35, "maxRadius": 60, "superelevation": 4}
+        ],
+        "2": [
+          {"minRadius": 40, "maxRadius": 350, "superelevation": 2}
+        ]
+      },
+      "icy": [
+        {"minRadius": 270, "maxRadius": 350, "superelevation": 2},
+        {"minRadius": 180, "maxRadius": 270, "superelevation": 3},
+        {"minRadius": 120, "maxRadius": 180, "superelevation": 4},
+        {"minRadius": 90, "maxRadius": 120, "superelevation": 5},
+        {"minRadius": 55, "maxRadius": 90, "superelevation": 6}
+      ]
+    },
+    "20": {
+      "normal": {
+        "8": [
+          {"minRadius": 140, "maxRadius": 150, "superelevation": 2},
+          {"minRadius": 90, "maxRadius": 140, "superelevation": 3},
+          {"minRadius": 70, "maxRadius": 90, "superelevation": 4},
+          {"minRadius": 50, "maxRadius": 70, "superelevation": 5},
+          {"minRadius": 40, "maxRadius": 50, "superelevation": 6},
+          {"minRadius": 30, "maxRadius": 40, "superelevation": 7},
+          {"minRadius": 15, "maxRadius": 30, "superelevation": 8}
+        ],
+        "6": [
+          {"minRadius": 110, "maxRadius": 150, "superelevation": 2},
+          {"minRadius": 70, "maxRadius": 110, "superelevation": 3},
+          {"minRadius": 40, "maxRadius": 70, "superelevation": 4},
+          {"minRadius": 30, "maxRadius": 40, "superelevation": 5},
+          {"minRadius": 15, "maxRadius": 30, "superelevation": 6}
+        ],
+        "4": [
+          {"minRadius": 70, "maxRadius": 150, "superelevation": 2},
+          {"minRadius": 30, "maxRadius": 70, "superelevation": 3},
+          {"minRadius": 15, "maxRadius": 30, "superelevation": 4}
+        ],
+        "2": [
+          {"minRadius": 20, "maxRadius": 150, "superelevation": 2}
+        ]
+      },
+      "icy": [
+        {"minRadius": 120, "maxRadius": 150, "superelevation": 2},
+        {"minRadius": 80, "maxRadius": 120, "superelevation": 3},
+        {"minRadius": 60, "maxRadius": 80, "superelevation": 4},
+        {"minRadius": 40, "maxRadius": 60, "superelevation": 5},
+        {"minRadius": 25, "maxRadius": 40, "superelevation": 6}
+      ]
+    }
+  }
+}

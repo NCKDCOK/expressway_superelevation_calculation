@@ -1,0 +1,137 @@
+.rule-definition-view {
+    -fx-background-color: linear-gradient(to bottom right, #1a2a6c, #b21f1f, #fdbb2d);
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 15, 0, 0, 0);
+}
+
+.main-container {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 15px;
+    -fx-padding: 30px;
+    -fx-spacing: 20px;
+}
+
+.rule-definition-view .content-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 1);
+}
+.content-box {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+}
+
+.option-row {
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+.text-field, .combo-box {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255, 255, 255, 0.5);
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: rgba(26, 42, 108, 0.8);
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: rgba(26, 42, 108, 0.8);
+    -fx-background-radius: 5px;
+}
+
+.check-box {
+    -fx-text-fill: white;
+}
+
+.check-box .box {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-border-color: white;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+
+.nav-button {
+    -fx-pref-width: 110px;
+    -fx-background-color: #fdbb2d;
+    -fx-text-fill: #1a2a6c;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 24px;
+    -fx-background-radius: 25px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0, 0, 0);
+}
+
+.nav-button:hover {
+    -fx-background-color: derive(#fdbb2d, -10%);
+}
+
+.nav-button:pressed {
+    -fx-background-color: derive(#fdbb2d, -20%);
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(253, 187, 45, 0.5);
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgba(253, 187, 45, 0.7);
+}
+
+.combo-box {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box .arrow {
+    -fx-background-color: white;
+}
+
+/* 当下拉列表打开时的样式 */
+.combo-box-popup .list-view {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}

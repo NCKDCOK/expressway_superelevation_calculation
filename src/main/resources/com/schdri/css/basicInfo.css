@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'sans-serif';
+    src: url('../fonts/sans.ttf');
+}
+
+.root {
+    -fx-font-family:  sans-serif;
+    -fx-font-size: 20px;
+}
+
+
+.basic-info-view {
+    -fx-background-color: linear-gradient(to bottom right, #1a2a6c, #b21f1f, #fdbb2d);
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 15, 0, 0, 0);
+}
+
+.main-container {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 15px;
+    -fx-padding: 30px;
+    -fx-spacing: 20px;
+}
+
+.content-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 1);
+}
+
+.content-box {
+    -fx-spacing: 20px;
+}
+
+.form-row {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 15px;
+}
+
+.form-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-min-width: 80px;
+}
+
+.form-control {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255, 255, 255, 0.5);
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 12px;
+}
+
+.form-control:focused {
+    -fx-background-color: rgba(255, 255, 255, 0.3);
+    -fx-effect: dropshadow(three-pass-box, rgba(253, 187, 45, 0.5), 5, 0, 0, 0);
+}
+
+.combo-box .list-cell {
+    -fx-background-color: rgba(26, 42, 108, 0.8);
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: rgba(26, 42, 108, 0.8);
+    -fx-background-radius: 5px;
+}
+
+.next-button {
+    -fx-background-color: #fdbb2d;
+    -fx-text-fill: #1a2a6c;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 24px;
+    -fx-background-radius: 25px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0, 0, 0);
+}
+
+.next-button:hover {
+    -fx-background-color: derive(#fdbb2d, -10%);
+}
+
+.error {
+    -fx-border-color: #ff5555;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.custom-alert {
+    -fx-background-color: #1a2a6c;
+    -fx-text-fill: white;
+}
+
+.custom-alert .header-panel {
+    -fx-background-color: #b21f1f;
+}
+
+.custom-alert .content {
+    -fx-padding: 15px;
+}
+
+.custom-alert .button-bar .button {
+    -fx-background-color: #fdbb2d;
+    -fx-text-fill: #1a2a6c;
+}
+
+.combo-box {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box .arrow {
+    -fx-background-color: white;
+}
+
+/* 当下拉列表打开时的样式 */
+.combo-box-popup .list-view {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}

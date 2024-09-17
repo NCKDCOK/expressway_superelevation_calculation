@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" styleClass="main-container" fx:controller="com.schdri.controller.WelcomeController">
+    <top>
+        <HBox styleClass="header">
+            <ImageView fitHeight="50" fitWidth="50" preserveRatio="true">
+                <image>
+                    <Image url="@../img/icon.ico"/>
+                </image>
+            </ImageView>
+            <Label text="四川交院" styleClass="header-text"/>
+        </HBox>
+    </top>
+
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <Label text="欢迎使用" styleClass="welcome-text"/>
+            <Label text="超高计算程序" styleClass="title-text"/>
+            <Button fx:id="startButton" text="开始使用" styleClass="start-button"/>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox styleClass="footer">
+            <Label text="© 2023 四川交通职业技术学院. 保留所有权利." styleClass="footer-text"/>
+        </HBox>
+    </bottom>
+</BorderPane>
